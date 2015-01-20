@@ -1,0 +1,76 @@
+.location {
+    position: relative;
+}
+#viewer {
+    /*    background-image: url("../images/map.jpg");
+        background-repeat: no-repeat;*/
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#map-inner {
+    width: 5000px;
+    height: 3000px;
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: move;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+.no-select:active {
+    cursor: move;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+    margin: 0px;
+}
+.location-screen {
+    width: 837px;
+    height: 463px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.arrow {
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000;
+    background: #fff;
+}
+
+#arrow-north, #arrow-south {
+    margin-left: 470px;
+}
+
+#arrow-east, #arrow-west {
+    margin-top: 320px;
+}
+
+#arrow-south {
+    margin-top: 670px;
+}
+
+#arrow-east {
+    margin-left: 970px;
+}

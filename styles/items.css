@@ -1,0 +1,28 @@
+#kamen-location { 
+margin-top: 150px;
+margin-left: 150px;
+}
+#kamen { 
+background: transparent url('../images/items/item.png') no-repeat 0 0;
+}
+#hrob-location { 
+margin-top: 512px;
+margin-left: 340px;
+}
+#hrob { 
+background: transparent url('../images/items/item.png') no-repeat 0 0;
+}
+#klacek-location { 
+margin-top: 315px;
+margin-left: 678px;
+}
+#klacek { 
+background: transparent url('../images/items/item.png') no-repeat 0 0;
+}
+#strom-location { 
+margin-top: 451px;
+margin-left: 130px;
+}
+#strom { 
+background: transparent url('../images/items/item.png') no-repeat 0 0;
+}
